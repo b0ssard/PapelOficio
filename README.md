@@ -1,13 +1,8 @@
 # PapelOficio
-Projeto inicial da mentoria onde me propus a fazer um modelo beta da webpage da empresa Papel Ofício.
+Projeto inicial da mentoria onde me propus a fazer um modelo beta da webpage da empresa Papel Ofício;
 
-Criado HTML
-Criado CSS
-Criado Favicon
-Criado Readme
+Criado HTML, CSS, Favicon e Readme;
 
-Linkado Google Fonts
-Linkado Bootstrap
-Linkado Fontawesome
+Linkado Google Fonts, Bootstrap eFontawesome;
 
-Testado funcionalidades acimas.
+Testado funcionalidades acimas;
