@@ -4,6 +4,11 @@ Objetivo: entregar até 18/11/2022 página com todas funcionalidades em tamanho 
 
 !!!NÃO ESQUECER!!!: FUNCIONALIDADES DE GOOGLE NO HEAD
 
+EM 16/11/2022
+
+Feito plano de ataque de HTML
+Feito NavBar
+
 EM 15/11/2022
 
 Criado HTML, CSS, Favicon e Readme;
@@ -11,8 +16,3 @@ Criado HTML, CSS, Favicon e Readme;
 Linkado Google Fonts, Bootstrap e Fontawesome;
 
 Testado funcionalidades acimas;
-
-EM 16/11/2022
-
-Feito plano de ataque de HTML
-Feito NavBar

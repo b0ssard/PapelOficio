@@ -33,7 +33,7 @@
 
     <!-- NAVBAR -->
 
-    <nav class="navbar fixed-top navbar-nav navbar-expand-lg bg-light">
+    <nav class="navbar sticky-top navbar-nav navbar-expand-lg bg-light">
       <div class="container-lg">
         <a class="navbar-brand">
           <img
@@ -59,10 +59,10 @@
               <a class="nav-link" href="#">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Serviços</a>
+              <a class="nav-link" href="#serviços">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -71,14 +71,157 @@
 
     <!-- APRESENTAÇÃO -->
 
+    <div id="apresentação" class="apresentação container-fluid row">
+      <div class="col-lg-6">
+        <h4>
+          <p>A Papel Ofício está aqui para deixar o seu texto ainda melhor.</p>
+          ​Seu texto diz muito de você, dos seus sonhos, crenças, desejos.
+          Escreva. Produza. Seja o seu texto. Entregue-se todo a ele. O que você
+          escreve é precioso, único. Por isso deve ser lapidado com carinho e
+          cuidado, como um ourives que faz as mais bonitas joias.
+        </h4>
+      </div>
+      <div class="col-lg-6">
+        <img class="joice" src="Images\joice.jpg" alt="Oi, eu sou a Joice!" />
+      </div>
+    </div>
+
     <!-- SERVIÇOS -->
+    <div id="serviços" class="serviços">
+      <h5 class="serviços">
+        A Papel Ofício oferece os serviços de revisão e preparação de textos,
+        transcrição de áudios e redação de marketing com qualidade, preços
+        justos e rigor nos prazos estabelecidos. Trabalhamos para editoras,
+        sites, agências de publicidade, universidades etc.
+      </h5>
+    </div>
 
     <!-- CARROSSEL DE PORTFÓLIO -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images\Livro1.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Carol - Laerte - Ed. Aletria</h5>
+            <p>Revisão de livro.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images\Livro2.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Benito Cereno - Herman Melville - Ed. Aletria</h5>
+            <p>Revisão de livro.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images\Livro3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Dança e Dramaturgias - Paulo Caldas - Petrobrás</h5>
+            <p>Preparação do livro.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    <!-- POSTAGENS -->
+    <!-- CTA -->
 
-    <!-- ORÇAMENTO CONTATO -->
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Nome</label>
+      <input
+        type="text"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="Seu nome e sobrenome"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput2" class="form-label">E-mail</label>
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput2"
+        placeholder="nome@exemplo.com"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"
+        >Mensagem</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+    </div>
 
     <!-- FOOTER/REDES SOCIAIS -->
+
+    <footer id="contato" class="footer">
+      Papel Ofício - Desde 2013.
+      <button
+        type="button"
+        class="btn btn-light btn-lg dl-button fa-brands fa-instagram"
+      ></button>
+
+      <button
+        type="button"
+        class="btn btn-light btn-lg dl-button fa-brands fa-linkedin"
+      ></button>
+
+      <button
+        type="button"
+        class="btn btn-light btn-lg dl-button fa-solid fa-envelope"
+      ></button>
+
+      <button
+        href="https://wa.me/5589999660631"
+        type="button"
+        class="btn btn-light btn-lg dl-button fa-brands fa-whatsapp"
+      ></button>
+    </footer>
   </body>
 </html>
