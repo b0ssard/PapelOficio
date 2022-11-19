@@ -1,17 +1,54 @@
 /* NAVBAR */
+.sticky-top {
+  background-color: #54BAB9;
+}
+
 .nav-item {
   margin: 0 15px;
 }
 
 /* APRESENTAÇÃO */
-
-/* SERVIÇOS */
-.serviços {
-  background-color: blueviolet;
+.teste {
+  background-color: #F7ECDE;
 }
 
-/* FOOTER */
+.apresentação {
+  padding-top: 2rem;
+}
 
-.footer {
-  background-color: aquamarine;
+.apresentaçãoTexto {
+  font-family: Montserrat;
+  text-align: justify;
+  width: 65%;
+  font-size: 17px;
+  padding-left: 3rem;
+}
+
+.joiceFoto {
+  margin-bottom: 2rem;
+}
+
+/* SERVIÇOS */
+
+.serviços {
+  background-color: #E9DAC1;
+}
+.serviçosTexto {
+  padding: 5rem;
+}
+
+/* CARROSSEL DE PORTFOLIO */
+.carrossel {
+  background-color: #F7ECDE;
+  padding: 5rem;
+}
+.carrosselConteúdo {
+  width: 28%;
+  margin: 1rem;
+}
+
+/* CTA */
+.cta {
+  background-color: #FBF8F1;
+  padding: 3rem;
 }
