@@ -1,6 +1,17 @@
+/* GERAL */
+
+p {
+  font-family: Montserrat;
+  font-size: 17px;
+  text-align: justify;
+}
+
 /* NAVBAR */
 .sticky-top {
-  background-color: #54BAB9;
+  background-color: #FEFBF6;
+  font-family: Finlandica;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .nav-item {
@@ -8,8 +19,8 @@
 }
 
 /* APRESENTAÇÃO */
-.teste {
-  background-color: #F7ECDE;
+.apresentaçãoGeral {
+  background-color: #f7ecde;
 }
 
 .apresentação {
@@ -17,10 +28,7 @@
 }
 
 .apresentaçãoTexto {
-  font-family: Montserrat;
-  text-align: justify;
-  width: 65%;
-  font-size: 17px;
+  width: 70%;
   padding-left: 3rem;
 }
 
@@ -31,24 +39,39 @@
 /* SERVIÇOS */
 
 .serviços {
-  background-color: #E9DAC1;
+  background-color: #e9dac1;
+  padding: 2.5rem;
 }
+
 .serviçosTexto {
-  padding: 5rem;
+  font-family: 'Satisfy', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* CARROSSEL DE PORTFOLIO */
 .carrossel {
-  background-color: #F7ECDE;
+  background-color: #f7ecde;
   padding: 5rem;
 }
 .carrosselConteúdo {
-  width: 28%;
+  width: 23rem;
   margin: 1rem;
 }
 
 /* CTA */
 .cta {
-  background-color: #FBF8F1;
+  background-color: #fbf8f1;
   padding: 3rem;
+}
+
+.ctaTexto {
+  width: 70%;
+}
+
+/* FOOTER/REDES SOCIAIS */
+.footerTexto {
+  font-family: Finlandica;
+  font-size: smaller;
 }

@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Finlandica&family=Montserrat&family=Ubuntu&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Finlandica&family=Montserrat&family=Satisfy&family=Ubuntu&display=swap"
       rel="stylesheet"
     />
     <link
@@ -70,9 +72,12 @@
     </nav>
 
     <!-- APRESENTAÇÃO -->
-    <div class="teste">
-      <div id="apresentação" class="apresentação row justify-content-evenly">
-        <div class="col-4">
+    <div class="apresentaçãoGeral">
+      <div
+        id="apresentação"
+        class="container-fluid apresentação row justify-content-evenly"
+      >
+        <div class="col-lg-4">
           <div class="apresentaçãoTexto">
             <p>
               A Papel Ofício está aqui para deixar o seu texto ainda melhor.
@@ -85,7 +90,7 @@
             </p>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4">
           <div class="joiceFoto">
             <img src="Images\joice.jpg" alt="Oi, eu sou a Joice!" />
           </div>
@@ -95,14 +100,14 @@
 
     <!-- SERVIÇOS -->
     <div class="serviços">
-      <div id="serviços" class="container text-center">
-        <div class="serviçosTexto">
-          <p>
+        <div id="serviços" class="container text-center">
+          <div>
+          <p class="serviçosTexto">
             A Papel Ofício oferece os serviços de revisão e preparação de
             textos, transcrição de áudios e redação de marketing com qualidade,
             preços justos e rigor nos prazos estabelecidos.
           </p>
-          <p>
+          <p class="serviçosTexto">
             Trabalhamos para editoras, sites, agências de publicidade,
             universidades etc.
           </p>
@@ -112,6 +117,7 @@
 
     <!-- CARROSSEL DE PORTFÓLIO -->
     <div class="carrossel">
+      <div><h3>ALGUNS DE NOSSOS TRABALHOS</h3></div>
       <div class="d-flex justify-content-center">
         <div class="carrosselConteúdo">
           <div
@@ -191,17 +197,19 @@
     </div>
 
     <!-- CTA -->
-    <div class="cta">
+    <div id="contato" class="cta">
       <div class="row justify-content-center">
-        <div class="col-4">
-          <p>Entre em contato para fazer ​um orçamento personalizado</p>
-          <p>
-            Formas de pagamento: à vista (depósito bancário), PayPal e
-            PagSeguro.
-          </p>
+        <div class="col-lg-4">
+          <div class="ctaTexto">
+            <p>Entre em contato para fazer ​um orçamento personalizado</p>
+            <p>
+              Formas de pagamento: à vista (depósito bancário), PayPal e
+              PagSeguro.
+            </p>
+          </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-lg-4">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"
               >Nome</label
@@ -245,12 +253,15 @@
         class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
       >
         <div class="col-md-4 d-flex align-items-center">
-          <p>2022. Papel Ofício.</p>
+          <p class="footerTexto">2022. Papel Ofício.</p>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3">
-            <a class="text-muted" href="https://www.instagram.com/papeloficio/"
+            <a
+              class="text-muted"
+              target="_blank"
+              href="https://www.instagram.com/papeloficio/"
               ><button
                 type="button"
                 class="btn btn-light btn-lg dl-button fa-brands fa-instagram"
@@ -260,6 +271,7 @@
           <li class="ms-3">
             <a
               class="text-muted"
+              target="_blank"
               href="https://www.linkedin.com/in/joice-nunes/"
               ><button
                 type="button"
@@ -268,7 +280,10 @@
             ></a>
           </li>
           <li class="ms-3">
-            <a class="text-muted" href="mailto:contato@papeloficio.com"
+            <a
+              class="text-muted"
+              target="_blank"
+              href="mailto:contato@papeloficio.com"
               ><button
                 type="button"
                 class="btn btn-light btn-lg dl-button fa-solid fa-envelope"
@@ -276,7 +291,10 @@
             ></a>
           </li>
           <li class="ms-3">
-            <a class="text-muted" href="https://wa.me/5589999660631"
+            <a
+              class="text-muted"
+              target="_blank"
+              href="https://wa.me/5589999660631"
               ><button
                 type="button"
                 class="btn btn-light btn-lg dl-button fa-brands fa-whatsapp"
