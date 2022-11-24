@@ -27,9 +27,17 @@ p {
   padding-top: 2rem;
 }
 
-.apresentaçãoTexto {
+/* .apresentaçãoTexto {
   width: 70%;
   padding-left: 3rem;
+} */
+
+h1 {
+
+}
+
+h6{
+
 }
 
 .joiceFoto {
@@ -51,6 +59,10 @@ p {
 }
 
 /* CARROSSEL DE PORTFOLIO */
+
+h3 {
+  
+}
 .carrossel {
   background-color: #f7ecde;
   padding: 5rem;
