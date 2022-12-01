@@ -75,6 +75,13 @@ h5 {
   margin: 1rem;
 }
 
+.carrosselLegenda {
+  background-color: #F7F7F7;
+  color: black;
+  font-family: "Marvel", sans-serif;
+  text-align: center;
+}
+
 /* CTA */
 .cta {
   background-color: #F7F7F7;
