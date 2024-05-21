@@ -1,7 +1,7 @@
 # PapelOficio
 https://papeloficio.netlify.app/
 
-Este é um projeto inicial de mentoria destinado a criar uma versão beta da página da web para a empresa Papel Ofício. O objetivo é entregar uma página inicial responsiva com estilo adequado.
+Este é um projeto inicial destinado a criar uma versão beta da página da web para a empresa Papel Ofício. O objetivo é entregar uma página inicial responsiva com estilo adequado.
 
 ## Objetivo do Projeto
 
