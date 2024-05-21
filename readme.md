@@ -1,4 +1,5 @@
 # PapelOficio
+
 https://papeloficio.netlify.app/
 
 Este é um projeto inicial destinado a criar uma versão beta da página da web para a empresa Papel Ofício. O objetivo é entregar uma página inicial responsiva com estilo adequado.
@@ -7,12 +8,9 @@ Este é um projeto inicial destinado a criar uma versão beta da página da web 
 
 O objetivo principal deste projeto é desenvolver uma página inicial simples, mas elegante, para a empresa Papel Ofício. Isso inclui garantir que a página seja responsiva em diferentes dispositivos e que tenha um estilo visual consistente e atraente.
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-As principais tecnologias utilizadas neste projeto são:
-
-- **React**: Framework JavaScript utilizado para construir a aplicação de forma eficiente e escalável.
-- **Bootstrap**: Framework de front-end utilizado para estilizar e tornar a aplicação responsiva.
+O projeto é principalmente construído com HTML e CSS. Não foram utilizados frameworks ou bibliotecas externas, pois o foco era aprender os conceitos básicos de desenvolvimento web.
 
 ## Estrutura do Projeto
 
